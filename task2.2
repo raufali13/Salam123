@@ -1,0 +1,12 @@
+function sonuSifirOlanUcReqemliEdedlerinSayi() {
+    let say = 0;
+    for (let i = 100; i <= 999; i++) {
+        if (i % 10 === 0) {
+            say++;
+        }
+    }
+    return say;
+}
+
+// Funksiyanı çağırmaq və nəticəni consol-a çap etmək
+console.log("Sonu 0 ilə bitən bütün 3 rəqəmli ədədlərin sayı:", sonuSifirOlanUcReqemliEdedlerinSayi());
