@@ -1,4 +1,4 @@
-function tekEddedlerinCemi() {
+function tekEdedlerinCemi() {
     let cem = 0;
     for (let i = 11; i <= 99; i += 2) { // 1-dən 99-a qədər olan tək ədədlər
         cem += i;
@@ -7,4 +7,4 @@ function tekEddedlerinCemi() {
 }
 
 // Funksiyanı çağırmaq və nəticəni consol-a çap etmək
-console.log("Bütün ikirəqəmli tək ədədlərin cəmi:", tekEddedlerinCemi());
+console.log("Bütün ikirəqəmli tək ədədlərin cəmi:", tekEdedlerinCemi());
